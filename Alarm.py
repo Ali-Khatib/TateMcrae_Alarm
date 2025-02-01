@@ -23,7 +23,7 @@ def play_sound():
     pygame.mixer.init()
     pygame.mixer.music.load("tatemcraee.mp3")
     pygame.mixer.music.play()
-    time.sleep(157)  # Let the alarm play for 10 seconds
+    time.sleep(157)  
     pygame.mixer.music.stop()
 
 
